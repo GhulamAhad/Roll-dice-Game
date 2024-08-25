@@ -74,14 +74,14 @@ const orignalScour = function (getOrignal) {
   if (activePlayer === 0) {
     arrSc[0] = getOrignal + arrSc[0];
     scoure1.innerText = arrSc[0];
-    if (arrSc[0] >= 20) {
+    if (arrSc[0] >= 100) {
       scoure1.innerText = "won";
       newturn();
     }
   } else {
     arrSc[1] = getOrignal + arrSc[1];
     scoure2.innerText = arrSc[1];
-    if (arrSc[1] >= 20) {
+    if (arrSc[1] >= 100) {
       scoure2.innerText = "won";
       newturn();
     }
